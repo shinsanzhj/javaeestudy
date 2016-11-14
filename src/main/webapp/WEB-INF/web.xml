@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" 
+	id="MyTestWeb" version="2.5">
+	<display-name>测试WEB项目</display-name>
+	
+	<!-- Servlet定义
+	<servlet>
+		<servlet-name>myoutput</servlet-name>
+		<servlet-class>com.zhj.jee.OutputServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>myoutput</servlet-name>
+		<url-pattern>/myoutput</url-pattern>
+	</servlet-mapping> -->
+	
+	<!-- Filter定义
+	<filter>
+		<filter-name>outputFilter</filter-name>
+		<filter-class>com.zhj.jee.OutputFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>outputFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping> -->
+</web-app>
